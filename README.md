@@ -111,3 +111,22 @@ function SayMyName({nome}){
         </div>
     )
 }
+
+<h1>Adicionando CSS</h1>
+<ul>O <b>CSS</b> pode ser <b>adicionado de forma global</b> na aplicação, por meio do arquivo index.css por exemplo;</ul>
+<ul>Porém é possível <b>estilizar a nível de componentes</b>;</ul>
+<ul>Utilizando o <b>CSS modules</b> para isso;</ul>
+<ul>Basta criar um arquivo como <b>"Componente.module.css"</b>;</ul>
+<ul>E chamar este CSS no componente.</ul>
+
+<h3>Criando CSS</h3>
+<p>Para fazer alterações globais no css, utilizamos o arquivo index.css</p>
+<p>Para fazer alterações apenas em um módulo, precisamos criar um arquivos css chamado [nome_do_módulo].module.css dentro da pasta de componentes</p>
+
+Exemplo:
+
+Pessoa.js
+Pessoa.module.css
+
+<p>Para importar para os estilos precisamos usar o import, assim como usamos para importar componentes. (Exemplo: import styles from '')</p>
+<p>Para receber o estilo, precisamos colocar o nome da classe. (Exemplo: div className={styles.estilo}>/div></p>
