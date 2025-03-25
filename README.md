@@ -68,3 +68,46 @@ Tudo que vamos modificar será feito no "app.js"
 <p>Para importar os componentes, precisamos ir no arquivo principal e o usar o comando "Import" (import HelloWorld from './components/HelloWorld')</p>
 <p>Para chamar ele no código, basta abrir uma tag do html normal, usando o nome que demos no import (< HelloWorld/>)</p>
 
+
+<!-- -- -->
+
+
+<h1>Props</h1>
+<ul>As <b>props</b> são valores passados para componentes;</ul>
+<ul>Podemos deixá-los <b>dinâmicos</b>;</ul>
+<ul>Ou seja, <b>mudando a execução</b> por causa do calor da prop;</ul>
+<ul>O valor é <b>passado como um atributo</b> na chamda do componente;</ul>
+<ul>E precisa ser <b>resgatado dentro de uma propriedade/argumento</b> chamada props na função de definição do componente;</ul>
+<ul>As props são somente de leitura.</ul>
+
+<p>Em resumo, as props são argumentos dos componentes, onde podemos passar variáveis para deixá-lo dinâmico.</p>
+
+<h3>Como criar uma prop</h3>
+<p>Para criar uma prop basta escrever "props" passando como argumento no componente </p>
+
+Exemplo: 
+
+function SayMyName(props){  
+
+    return(
+        <div>
+            <p>Fala aí {props.nome}, suave?</p>
+        </div>
+    )
+}
+
+<p>O ".nome" é como se fosse uma variável do um objeto</p>
+
+<h3>Structure</h3>
+<p>Há uma maneira mais inteligente para passar os argumento ao invés de usar a palavra "props". Podemos simplesmente passar os argumentos que vamos usar</p>
+
+Exemplo: 
+
+function SayMyName({nome}){  
+
+    return(
+        <div>
+            <p>Fala aí {nome}, suave?</p>
+        </div>
+    )
+}
