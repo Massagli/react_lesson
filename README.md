@@ -75,7 +75,7 @@ Tudo que vamos modificar será feito no "app.js"
 <h1>Props</h1>
 <ul>As <b>props</b> são valores passados para componentes;</ul>
 <ul>Podemos deixá-los <b>dinâmicos</b>;</ul>
-<ul>Ou seja, <b>mudando a execução</b> por causa do calor da prop;</ul>
+<ul>Ou seja, <b>mudando a execução</b> por causa do valor da prop;</ul>
 <ul>O valor é <b>passado como um atributo</b> na chamda do componente;</ul>
 <ul>E precisa ser <b>resgatado dentro de uma propriedade/argumento</b> chamada props na função de definição do componente;</ul>
 <ul>As props são somente de leitura.</ul>
@@ -130,3 +130,41 @@ Pessoa.module.css
 
 <p>Para importar para os estilos precisamos usar o import, assim como usamos para importar componentes. (Exemplo: import styles from '')</p>
 <p>Para receber o estilo, precisamos colocar o nome da classe. (Exemplo: div className={styles.estilo}>/div></p>
+
+<!-- -- -->
+
+<h1>Fragmentos</h1>
+
+<ul>Os React Fragments permite a criação de um componente sem elemento pai;</ul>
+<ul>O propósito é descomplicar os nós do DOM;</ul>
+<ul>A sintaxe é <> e </>, não há um nome para a tag;</ul>
+<ul>Criamos no próprio JSX;</ul>
+
+<!-- -- -->
+
+<h1>Avançando em props</h1>
+
+<ul>Podemos definir tipos para as props, realizando uma espécie de validação;</ul>
+<ul>Definimos em um objeto chamado propTypes no próprio componente;</ul>
+<ul>E ainda há a possibilidade de definir um valor padrão;</ul>
+<ul>Neste caso utilizamos o objeto defaultProps;</ul>
+
+<!-- -- -->
+
+<h1>Eventos</h1>
+
+<ul>Os eventos de react são os mesmo eventos do DOM;</ul>
+<ul>Ou seja, temos eventos para responder a um click;</ul>
+<ul>O evento é atrelado a uma tag que irá executá-lo;</ul>
+<ul>Geralmente um método é atribuído ao evento;</ul>
+<ul>Este método deve ser criado no componente.</ul>
+
+<!-- -- -->
+
+<h1>useState</h1>
+
+<ul>O useState é um hook do React;</ul>
+<ul>Com ele conseguimos manusear o estado de um componente de forma simples;</ul>
+<ul>Este hook funciona muito bem com eventos;</ul>
+<ul>Podemos atrelar um evento a mudança de state;</ul>
+
