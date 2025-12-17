@@ -13,18 +13,22 @@
 
 <h1>Como instalar o React?</h1>
 
-<ul>Para instalar o React vamos utilizar uma ferramente chamada <b>Create React App</b>;</ul>
+
+<ul>
+    <li>Para instalar o React vamos utilizar uma ferramente chamada <b>Create React App</b>, usando o seguinte comando:</li>
+    <ul><li>npm install -g create-react-app </li></ul>
+
+</ul>
 <ul>Recebemos todos os arquivos da biblioteca e <b>temos que executá-la</b>;</ul>
 <ul>Para utilizar precisamos do <b>Node e npm</b>;</ul>
 <ul>Esta ferramente também otimiza o app gerado para <b>produção</b>;</ul>
-<ul>É possível iniciar a aplicação com <b>npm star</b>.</ul>
 
 Sempre que fomos rodar algum comando, precisamos usar o npm ou npx que é o comando e execução.
 
 <!-- -- -->
 
 <h1>Criando o projeto</h1>
-Para criar o projeto, no terminal do VSCODE precisamos colocar o seguinte comando "create_react_app [nome do projeto]";
+Para criar o projeto, no terminal do VSCODE precisamos colocar o seguinte comando "create-react-app [nome do projeto]";
 Após isso precisamos entrar na pasta usando o comando "cd [nome do projeto]";
 E iniciar o app usando o comando "npm start".
 
